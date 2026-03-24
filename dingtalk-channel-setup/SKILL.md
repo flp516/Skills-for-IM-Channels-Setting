@@ -1,6 +1,15 @@
-# dingtalk-channel-setup
+---
+name: dingtalk-channel-setup
+description: 钉钉Channel配置技能。帮助用户快速配置钉钉机器人与OpenClaw的集成，包括安装插件、配置凭证、重启服务。触发词：配置钉钉、钉钉channel、钉钉机器人、dingtalk配置。
+license: MIT
+metadata:
+  author: flp516
+  version: "1.0"
+---
 
-钉钉Channel配置技能 - 帮助用户快速配置钉钉机器人与OpenClaw的集成
+# 钉钉 Channel 配置技能
+
+帮助用户快速配置钉钉机器人与OpenClaw的集成。
 
 ## 功能描述
 
@@ -8,14 +17,6 @@
 - 配置OpenClaw的 `openclaw.json` 文件
 - 重启Gateway服务
 - 验证配置状态
-
-## 触发条件
-
-当用户提到以下关键词时激活：
-- "配置钉钉"
-- "钉钉channel"
-- "钉钉机器人"
-- "dingtalk配置"
 
 ## 前置条件
 
@@ -135,6 +136,8 @@ tail -100 /tmp/openclaw/openclaw-$(date +%Y-%m-%d).log | grep -i "DingTalk"
 **方法**:
 1. 钉钉App → 右上角"+" → "添加好友/机器人" → 搜索机器人名称
 2. 通讯录 → 企业 → "机器人"分类下查找
+
+### Q: Stream模式连接失败
 
 **原因**: Stream模式未正确连接
 
