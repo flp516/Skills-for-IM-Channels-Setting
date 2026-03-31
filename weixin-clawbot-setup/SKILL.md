@@ -1,13 +1,13 @@
 ---
 name: weixin-clawbot-setup
-description: 微信 ClawBot 插件配置指南。帮助用户在 OpenClaw 中配置微信 Channel，实现通过微信与 OpenClaw 对话。触发词：微信ClawBot配置、微信插件安装、微信扫码绑定、openclaw-weixin。
+description: 微信 ClawBot 插件配置指南。帮助用户在小艺 Claw 中配置微信 ClawBot 插件，实现通过微信与小艺 Claw 进行对话。触发词：微信ClawBot配置、微信插件安装、微信扫码绑定、openclaw-weixin。
 ---
 
 # 微信 ClawBot 配置技能
 
 ## 概述
 
-本技能帮助用户在 OpenClaw 中配置微信 ClawBot 插件，实现通过微信与 OpenClaw 进行对话。
+本技能帮助用户在小艺 Claw 中配置微信 ClawBot 插件，实现通过微信与小艺 Claw 进行对话。
 
 ## 微信版本支持
 
